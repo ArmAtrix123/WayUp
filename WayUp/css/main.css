@@ -1,0 +1,218 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.contanier {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    background: rgb(78,190,254);
+    background: linear-gradient(90deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 35%);
+    padding-top: 65px;
+    padding-bottom: 143px;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    width: 555px;
+}
+
+.headerh1 {
+    font-size:  37px;
+
+}
+
+.headerh1 span {
+    font-size: 59px;
+}
+
+.second {
+    margin-top: 45px;
+    margin-bottom: 37px;
+    width: 405px;
+}
+
+.button {
+    padding: 22px 0;
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    display: block;
+    width: 220px;
+    text-align: center;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    opacity: 0.7;
+    background: #f4c91d
+}
+.discovery {
+    width: 585px;
+    margin-top: 45px;
+}
+
+.future {
+    margin-bottom: 120px;
+    margin-top: 105px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;;
+}
+
+.works {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.work {
+    width: 300px;
+    text-align: center;
+    background: url('../img/icon-time.png') no-repeat top;
+    padding-top: 100px;
+}
+
+.workh {
+    font-size: 19px;
+}
+
+.workp {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.disc {
+    width: 270px;
+    background: url('../img/icon-beach.png') no-repeat top;
+}
+
+.rocket {
+    background: url('../img/icon-rocket.png') no-repeat top;
+}
+
+.form {
+    background: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
+
+.email {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    padding-left: 30px;
+    width: 340px;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+}
+
+.btnform {
+    border: 0;
+    cursor: pointer;
+    width: 340px;
+}
+
+.footer {
+    background: #164d7a;
+    padding: 55px 0;
+}
+
+.end {
+    font-size: 14px;
+    color: #eaedf0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .contanier {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .contanier {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .first {
+        width: 100%;
+    }
+    .headerh1 {
+        width: 100%;
+    }
+    .discovery {
+        display: block;
+        width: 100%;
+    }
+    .works {
+        flex-direction: column;
+    }
+    .work {
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .contanier {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contanier {
+        width: 90%;
+    }
+    .btnform {
+        width: 310px;
+    }
+    .input {
+        width: 310px;
+    }
+    .second {
+        width: 300px;
+    }
+}
